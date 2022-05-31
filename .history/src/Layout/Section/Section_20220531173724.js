@@ -67,7 +67,7 @@ function Section() {
       return 0;
     }
     setPage(page + 1);
-
+    alert(page + " 페이지로 넘어갑니다.");
     const response = await axios.get(
       `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
     );
@@ -100,10 +100,10 @@ function Section() {
         );
       })}
       <button id="prev" onClick={onPrev}>
-        이전 페이지
+        이전
       </button>
       <button id="next" onClick={onNext}>
-        다음 페이지
+        다음
       </button>
       <Modal id={id} />
     </div>

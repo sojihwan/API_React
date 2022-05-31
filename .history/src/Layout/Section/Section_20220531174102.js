@@ -103,7 +103,7 @@ function Section() {
         이전 페이지
       </button>
       <button id="next" onClick={onNext}>
-        다음 페이지
+        다음
       </button>
       <Modal id={id} />
     </div>
