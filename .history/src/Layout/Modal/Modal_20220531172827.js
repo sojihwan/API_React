@@ -63,9 +63,9 @@ function Modal(props) {
               <td>
                 <h3>
                   <span>추천 도서 - </span> &nbsp;
-                  {props.id.similars === undefined
+                  {props.id.similars === false
                     ? "관련 정보가 없습니다."
-                    : props.id.similars.length === 0
+                    : props.id.similars.length === false
                     ? "관련 정보가 없습니다."
                     : props.id.similars[0].titleStatement}
                 </h3>
@@ -76,6 +76,10 @@ function Modal(props) {
                 <h3>
                   <span>대출 여부 - </span> &nbsp;
                   {props.id.branchVolumes === undefined
+                    ? "관련 정보가 없습니다."
+                    : props.id.branchVolumes === null
+                    ? "관련 정보가 없습니다."
+                    : props.id.branchVolumes === []
                     ? "관련 정보가 없습니다."
                     : props.id.branchVolumes.length === 0
                     ? "관련 정보가 없습니다."

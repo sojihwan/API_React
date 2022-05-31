@@ -77,6 +77,10 @@ function Modal(props) {
                   <span>대출 여부 - </span> &nbsp;
                   {props.id.branchVolumes === undefined
                     ? "관련 정보가 없습니다."
+                    : props.id.branchVolumes === null
+                    ? "관련 정보가 없습니다."
+                    : props.id.branchVolumes === []
+                    ? "관련 정보가 없습니다."
                     : props.id.branchVolumes.length === 0
                     ? "관련 정보가 없습니다."
                     : props.id.branchVolumes[0].cState}
