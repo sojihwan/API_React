@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+img {
+  
+}
+
+.section {
+  box-sizing: border-box;
+  border: 1px dashed black;
+  position: relative;
+  width: 70%;
+  left: 15%;
+  padding: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.booktitle {
+  position: absolute;
+  text-align: center;
+  width: 15vh;
+}
+
+.photo {
+  border: 2px solid black;
+  position: relative;
+  display: inline-block;
+  width: 15vh;
+  height: 20vh;
+  margin-top: 10px;
+}

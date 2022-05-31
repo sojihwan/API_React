@@ -1,0 +1,51 @@
+.layout {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: skyblue;
+}
+
+aside {
+  top: 70px;
+}
+
+main aside:first-child {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: 90.6%;
+  background: red;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: plum;
+  height: 100%;
+}
+
+section {
+  background-color: darkblue;
+  padding: 50px;
+  font-weight: 900;
+}
+
+main aside:last-child {
+  position: absolute;
+  right: 0;
+  width: 10%;
+  height: 90.6%;
+  background: blueviolet;
+}
+
+
+ 
+ 
+ 

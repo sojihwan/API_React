@@ -1,0 +1,13 @@
+.modal * {
+  
+}
+
+.modal {
+  border: 2px solid black;
+  background: #eee;
+  position: fixed;
+  width: 50%;
+  height: 75%;
+  left: 25%;
+  top: 12.5%;
+}

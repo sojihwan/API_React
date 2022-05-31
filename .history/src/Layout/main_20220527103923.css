@@ -1,0 +1,25 @@
+#main * {
+  box-sizing: border-box;
+}
+
+#main aside {
+  background: #00FFAB;
+}
+
+#main aside:first-child {
+  border-right: 2px double black;
+  position: absolute;  
+  left: 0;
+  top: 10%;
+  width: 10%;
+  height: 90%;
+}
+
+#main aside:last-child {
+  border-left: 2px solid black;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: 10%;
+  height: 90%;
+}

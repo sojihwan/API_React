@@ -1,0 +1,8 @@
+.section {
+  border: 1px solid black;
+  width: 100px;
+  
+  background: gold;
+  text-align: center;
+  padding: 100px 0px;
+}

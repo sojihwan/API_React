@@ -1,0 +1,16 @@
+.modal {
+  position: fixed;
+  background: #eee;
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  text-align: left;
+}
+
+img {
+  float: left;
+}
+
+img > h3, p, h4 {
+  marign-left: 20%;
+}

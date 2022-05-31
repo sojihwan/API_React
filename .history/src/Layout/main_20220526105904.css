@@ -1,0 +1,89 @@
+#main * {
+  box-sizing: border-box;
+}
+
+#main aside:first-child {
+  position: fixed;
+  background: red;
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+#main aside:last-child {
+  position: fixed;
+  background: red;
+  float: right;
+  width: 10%;
+}
+
+/* #main * {
+  position: relative;
+}
+
+#main aside:first-child {
+  position: fixed;
+  float: left;
+  width: 300px;
+  height: 100%;
+  background: red;
+}
+
+#main aside:last-child {
+  position: fixed;
+  right: 0px;
+  background: red;
+  height: 100%;
+} */
+
+
+/* #main * {
+  box-sizing: border-box;
+  position: relative;
+}
+
+#main aside:first-child {
+  position: absolute;
+  float: left;
+  top: 10%;
+  height: 100%;
+  background: red;
+}
+
+#main aside:last-child {
+  
+  float: right;
+  top: 10%;
+  height: 100%;
+  background: red;
+} */
+
+
+/* main {
+  position: fixed;
+  background: #E3FCBF;
+  top: 10%;
+  height: 100%;
+}
+
+aside {
+  background: #00FFAB;
+}
+
+main aside:first-child {
+  border-right: 2px solid black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10%;
+  height: 100%;
+}
+
+main aside:last-child {
+  border-left: 2px solid black;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10%;
+  height: 100%;
+} */

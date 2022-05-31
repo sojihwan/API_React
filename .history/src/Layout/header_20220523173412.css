@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #00FFC6;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Gowun Dodum', sans-serif;
+}

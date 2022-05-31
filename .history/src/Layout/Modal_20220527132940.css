@@ -1,0 +1,9 @@
+.modal {
+  background: #eee;
+  padding: 20px;
+  text-align: left;
+}
+
+img {
+  display: inline-block;
+}

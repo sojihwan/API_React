@@ -1,0 +1,12 @@
+.modal {
+  background: #eee;
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  text-align: left;
+}
+
+img {
+  float: left;
+  
+}

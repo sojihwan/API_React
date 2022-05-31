@@ -1,0 +1,13 @@
+.modal {
+  position: relative;
+  background: #eee;
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  text-align: left;
+}
+
+.text {
+ position: absolute; 
+ left: 20%;
+}

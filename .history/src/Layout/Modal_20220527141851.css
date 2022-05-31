@@ -1,0 +1,7 @@
+
+.modal {
+  position: fixed;
+  background: #eee;
+  width: 50%;
+  height: 80%;
+}

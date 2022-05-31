@@ -1,0 +1,40 @@
+.layout {
+  box-sizing: border-box;
+}
+
+header {
+  top: 0px;
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  background: #A85CF9;
+}
+
+aside {
+  top: 90px;
+  background: #7FB5FF;
+}
+
+main aside:first-child {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: 91.9%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 91.9vh;
+  background: #001D6E;
+}
+
+main aside:last-child {
+  position: absolute;
+  right: 0;
+  width: 10%;
+  height: 91.9%;
+}
+

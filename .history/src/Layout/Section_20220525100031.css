@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+.section {
+  border: 1px dashed black;
+  position: relative;
+  width: 70%;
+  left: 15%;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+}

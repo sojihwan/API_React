@@ -1,0 +1,19 @@
+import React from "react";
+import "../Layout/Section.css";
+
+function Section() {
+  let [소환, 소환변경] = useState("");
+  return (
+    <div className="section">
+      <div
+        onClick={() => {
+          소환변경("돼지환 발동");
+        }}
+      >
+        마법 카드
+      </div>
+    </div>
+  );
+}
+
+export default Section;

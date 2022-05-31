@@ -1,0 +1,35 @@
+header {
+  border: 1px solid black;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+main {
+  height: 100%;
+}
+
+aside {
+  height: 100%;
+}
+
+main aside:first-child {
+  position: fixed;
+  
+  border: 1px solid black;
+}
+
+section {
+  
+  
+  border: 1px solid black;
+}
+
+main aside:last-child {
+  position: fixed;
+  
+  border: 1px solid black;
+}
+
+

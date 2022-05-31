@@ -1,0 +1,14 @@
+.modal * {
+  box-sizing: border-box;
+}
+
+.modal {
+  border: 2px solid black;
+  border-radius: 5%;
+  background: #eee;
+  position: fixed;
+  width: 50%;
+  height: 70%;
+  left: 25%;
+  top: 15%;
+}

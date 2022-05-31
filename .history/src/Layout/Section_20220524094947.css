@@ -1,0 +1,5 @@
+.section {
+  position: fixed;
+  border: 1px solid black;
+  text-align: justify;
+}
