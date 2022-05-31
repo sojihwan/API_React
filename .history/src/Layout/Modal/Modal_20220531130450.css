@@ -1,0 +1,45 @@
+#modal_overLay{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(255, 255, 255, 0.688);
+    box-shadow: 0 8px 32px 0 rgba(135, 83, 31, 0.266);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+}
+
+#modal * {
+  box-sizing: border-box;
+}
+
+#modal {
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  position: fixed;
+  display: none;
+  width: 50%;
+  height: 460px;
+  left: 25%;
+  top: 20%;
+  color: black;
+}
+
+.close {
+  position: fixed;
+  right: 25%;
+  margin-right: 15px;
+  font-size: 24px;
+}
+
+.modal_img {
+  width: 300px;
+  margin: 0px 60px;
+}
+
+td {
+  text-align: center;
+} 
