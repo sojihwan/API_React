@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+@media ( min-width: 771px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+    position: absolute;
+    left: 10%;
+    top: 7.5%;
+    width: 70%;
+    height: 80%;
+    margin: 5% 5%;
+    margin-top: 3.5%;
+    text-align: center;
+  }
+
+  .book {
+    border: 2px solid black;
+    border-radius: 2.5%;
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    height: 20%;
+    margin: 25px 20px 5px 10px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 10%;
+    height: 70%;
+  8
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    display: fixed;
+    bottom: 2.5%;
+    width: 100px;
+    margin: 10px 20px 10px 0;
+    padding: 10px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    border: 2.5px solid #2aecab;
+    background: #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    border: 2.5px solid #2aecab;
+    background: white;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+}
+
+
+
+
+
+@media ( max-width: 771px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+    position: absolute;
+    left: 5%;
+    top: 13%;
+    width: 90%;
+    height: 10  0%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 3.5%;
+    text-align: center;
+  }
+
+  .book {
+    border: 2px solid black;
+    border-radius: 2.5%;
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin: 10px 12.5px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 50px;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 50px;
+    font-size: 1px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    background-color: white;
+    position: fixed;
+    display: fixed;
+    bottom: 2.5%;
+    width: 70px;
+    height: 40px;
+    margin: -20px -95px -20px -95px;
+    padding: 1px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 15px;
+    bottom: 50px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    border: 2.5px solid #2aecab;
+    background: #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    border: 2.5px solid #2aecab;
+    background: white;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+}
+
+@media ( max-width: 376px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 13%;
+    width: 90%;
+    height: 100%;
+    margin-top: 3.5%;
+    text-align: center;
+  }
+
+  .book {
+    border: 2px solid black;
+    border-radius: 2.5%;
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 100px;
+    margin: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 50px;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 50px;
+    font-size: 1px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    background-color: white;
+    position: fixed;
+    display: fixed;
+    bottom: 2.5%;
+    width: 50px;
+    margin: 10px -90px 10px -90px;
+    padding: 1px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    border: 2.5px solid #2aecab;
+    background: #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    border: 2.5px solid #2aecab;
+    background: white;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+}

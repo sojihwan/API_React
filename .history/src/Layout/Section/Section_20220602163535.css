@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+/* @media ( min-width: 771px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    background: white;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70%;
+    height: 80%;
+    top: 7.5%;
+    left: 10%;
+    margin: 5% 5%;
+    margin-top: 3.5%;
+    text-align: center;
+  }
+
+  .book {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2.5%;
+    width: 10%;
+    height: 20%;
+    margin: 25px 20px 5px 10px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .image {
+    width: 100%;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 70%;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    background: white;
+    display: fixed;
+    position: absolute;
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    width: 100px;
+    bottom: 2.5%;
+    margin: 10px 20px 10px 0;
+    padding: 10px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 14px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #2aecab;
+    border: 2.5px solid #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    background: white;
+    border: 2.5px solid #2aecab;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+} */
+
+@media ( min-width: 768px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    background: white;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70%;
+    height: 80%;
+    top: 7.5%;
+    left: 10%;
+    margin: 5% 5%;
+    margin-top: 3.5%;
+    text-align: center;
+  }
+
+  .book {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2.5%;
+    width: 10%;
+    height: 20%;
+    margin: 25px 20px 5px 10px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .image {
+    width: 80%;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 70%;
+    font-size: 11px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    background: white;
+    display: fixed;
+    position: absolute;
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    width: 100px;
+    bottom: 2.5%;
+    margin: 10px 20px 10px 0;
+    padding: 10px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 14px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #2aecab;
+    border: 2.5px solid #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    background: white;
+    border: 2.5px solid #2aecab;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+}
+
+
+
+
+@media (max-width: 426px) {
+  html {
+    background: #cbf7a3;
+  }
+
+  #section {
+    background: white;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+  }
+}
+
+
+
+
+
+
+/* @media ( max-width: 426px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    background: white;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 85%;
+    height: 75%;
+    top: 10%;
+    margin: 5% 7.5%;
+    text-align: center;
+  }
+
+  .book {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2.5%;
+    width: 95px;
+    height: 80px;
+    margin: 5px;
+    overflow: hidden;
+  }
+
+  .image {
+    
+    width: 55px;
+    height: 65%;
+  }
+
+  .booktitle {
+    background: #eee;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 70%;
+    font-size: 1px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    background: white;
+    display: fixed;
+    position: absolute;
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    width: 60px;
+    bottom: -15%;
+    margin: 15px -30px;
+    color: gray;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    background: #2aecab;
+    border: 2.5px solid #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    background: white;
+    border: 2.5px solid #2aecab;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+} */
+
+
+
+
+
+
+/* @media ( max-width: 771px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    background: white;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70%;
+    height: 80%;
+    top: 13%;
+    left: 10%;
+    margin: 5% 5%;
+    margin-top: 3.5%;
+    text-align: center;
+  }
+
+  .book {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2.5%;
+    width: 50px;
+    height: 100px;
+    margin: 4px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 50px;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 70%;
+    font-size: 1px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    background: white;
+    display: fixed;
+    position: absolute;
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    width: 50px;
+    bottom: 2.5%;
+    margin: 10px -30px 10px -30px;
+    padding: 1px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    background: #2aecab;
+    border: 2.5px solid #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    background: white;
+    border: 2.5px solid #2aecab;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+} */
+

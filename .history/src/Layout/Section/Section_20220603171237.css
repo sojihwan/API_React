@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+@media ( min-width: 769px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    background: white;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    top: 7.5%;
+    left: 10%;
+    width: 70%;
+    height: 80%;
+    margin: 5% 5%;
+    margin-top: 3.5%;
+    text-align: center;
+  }
+
+  .book {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2.5%;
+    width: 10%;
+    height: 20%;
+    margin: 25px 20px 5px 10px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 75%;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    background-color: white;
+    display: fixed;
+    position: absolute;
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    bottom: 2.5%;
+    width: 100px;
+    margin: 10px 20px 10px 0;
+    padding: 10px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    background: #2aecab;
+    border: 2.5px solid #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    background: white;
+    border: 2.5px solid #2aecab;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+}
+
+
+@media ( max-width: 769px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    background: white;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    top: 13%;
+    left: 5%;
+    width: 90%;
+    margin-top: 3.5%;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .book {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2.5%;
+    width: 90px;
+    height: 90px;
+    margin: 10px 15px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 50px;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 50px;
+    font-size: 1px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    background: white;
+    display: fixed;
+    position: fixed;
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    bottom: 50px;
+    bottom: 5%;
+    width: 80px;
+    height: 40px;
+    margin: -20px -95px -10px -95px;
+    padding: 1px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    background: #2aecab;
+    border: 2.5px solid #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    background: white;
+    border: 2.5px solid #2aecab;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+}
+
+
+@media ( max-width: 426px ) {
+  html {
+    background: #cbf7a3; 
+    height: 1000%;
+  }
+
+  #section {
+    background: white;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    top: 13%;
+    left: 5%;
+    width: 90%;
+    margin-top: 3.5%;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .book {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2.5%;
+    width: 90px;
+    height: 90px;
+    margin: 10px 15px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 50px;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 50px;
+    font-size: 1px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    background: white;
+    display: fixed;
+    position: fixed;
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    bottom: 50px;
+    bottom: 5%;
+    width: 80px;
+    height: 40px;
+    margin: -20px -95px -10px -95px;
+    padding: 1px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    background: #2aecab;
+    border: 2.5px solid #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    background: white;
+    border: 2.5px solid #2aecab;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+}
+
+
+@media ( max-width: 376px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    top: 13%;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    margin-top: 3.5%;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .book {
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2.5%;
+    width: 90px;
+    height: 100px;
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 50px;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 50px;
+    font-size: 1px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    background: white;
+    display: fixed;
+    position: fixed;
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    bottom: 2.5%;
+    width: 50px;
+    margin: 10px -90px 10px -90px;
+    padding: 1px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    background: #2aecab;
+    border: 2.5px solid #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    background: white;
+    border: 2.5px solid #2aecab;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 30%;
+  }
+
+  #next {
+    right: 30%;
+  }
+}
+
+
+@media ( max-width: 321px ) {
+  html {
+    background: #cbf7a3; 
+  }
+
+  #section {
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    margin-top: 3.5%;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .book {
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2.5%;
+    width: 90px;
+    height: 100px;
+    margin: 10px 17.5px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 50px;
+    height: 70%;
+  }
+
+  .booktitle {
+    background: rgba(130, 213, 170, 0.688);
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 50px;
+    font-size: 1px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button {
+    background: white;
+    display: fixed;
+    position: fixed;
+    border: 2.5px solid #2aecab;
+    border-radius: 5px;
+    bottom: 2.5%;
+    width: 40px;
+    height: 50px;
+    margin: 10px -105px;
+    padding: 1px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    background: #2aecab;
+    border: 2.5px solid #2aecab;
+    color: aliceblue;
+    font-weight: bolder;
+  }
+
+  button:active {
+    background: white;
+    border: 2.5px solid #2aecab;
+    color: #2aecab;
+    transition: all 0.01s;
+  }
+
+  #prev {
+    left: 35%;
+  }
+
+  #next {
+    right: 35%;
+  }
+  
+}
