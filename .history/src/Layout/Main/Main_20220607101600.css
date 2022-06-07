@@ -1,0 +1,34 @@
+@media ( min-width: 769px ) {
+  #main * {
+    box-sizing: border-box;
+  }
+
+  #main aside {
+    background: #00FFAB;
+  }
+
+  #main aside:first-child {
+    border-right: thick double black;
+    position: absolute;  
+    top: 10%;
+    left: 0;
+    width: 10%;
+    height: 90%;
+  }
+
+  #main aside:nth-child(2) {
+    border-left: thick double black;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 10%;
+    height: 90%;
+  }
+}
+
+
+@media ( max-width: 769px ) {
+  #main * {
+    box-sizing: border-box;
+  }
+}
