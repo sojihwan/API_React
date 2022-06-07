@@ -56,17 +56,17 @@ function Section() {
     if (page <= 1) {
       alert("첫 페이지 입니다");
       setPage(1);
-      const response = await axios.get(
+      const reponse = await axios.get(
         `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
       );
-      setApi(response.data);
+      setApi(reponse.data);
       return 0;
     }
     setPage(page - 1);
-    const response = await axios.get(
+    const reponse = await axios.get(
       `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
     );
-    setApi(response.data);
+    setApi(reponse.data);
   };
 
   const onNext = async () => {
@@ -75,10 +75,10 @@ function Section() {
       return 0;
     }
     setPage(page + 1);
-    const response = await axios.get(
+    const reponse = await axios.get(
       `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
     );
-    setApi(response.data);
+    setApi(reponse.data);
   };
 
   return (
